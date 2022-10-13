@@ -1,12 +1,12 @@
-import React from "react";
-import Header from "./header";
+import React, { useState } from "react";
+import Header from "./Header";
 
 const App = () => {
 
-
-
     return(
-        <Header score='1' />
+        <div>
+            <Header />
+        </div>
     )
 }
 
