@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Game from "./Game";
 import Header from "./Header";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     return(
         <div>
             <Header />
+            <Game />
         </div>
     )
 }
