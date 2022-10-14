@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.54d7a6b2.css",
+    "main.js": "/memory-game/static/js/main.ed9c9299.js",
+    "static/js/787.69b12325.chunk.js": "/memory-game/static/js/787.69b12325.chunk.js",
+    "static/media/Joseph-A.-Banana.webp": "/memory-game/static/media/Joseph-A.-Banana.7de4ae238abe811e81c8.webp",
+    "static/media/Penny-Fitzgerald.webp": "/memory-game/static/media/Penny-Fitzgerald.a9c40af55e16876eac20.webp",
+    "static/media/Leslie.webp": "/memory-game/static/media/Leslie.bbf81132d28926a8ed50.webp",
+    "static/media/Gumball-Tristopher-Watterson.webp": "/memory-game/static/media/Gumball-Tristopher-Watterson.d5db05bf9fadd0ed7ef7.webp",
+    "static/media/Doctor-Nicole-Watterson.webp": "/memory-game/static/media/Doctor-Nicole-Watterson.b0d899746490ee63d6d0.webp",
+    "static/media/Anais-Errrrrr-Watterson.webp": "/memory-game/static/media/Anais-Errrrrr-Watterson.19be54c3da23163347bd.webp",
+    "static/media/Darwin-Raglan-Caspian-Ahab-Poseidon-Nicodemus-Watterson-III.webp": "/memory-game/static/media/Darwin-Raglan-Caspian-Ahab-Poseidon-Nicodemus-Watterson-III.8a56dd7cdda25a9767e5.webp",
+    "static/media/Richard-Buckley-Watterson.webp": "/memory-game/static/media/Richard-Buckley-Watterson.98a518de06b8cc3496fb.webp",
+    "static/media/Tobias-Wilson.webp": "/memory-game/static/media/Tobias-Wilson.a48fbbfdc734eea89f84.webp",
+    "static/media/Carrie-Krueger.webp": "/memory-game/static/media/Carrie-Krueger.2132763fa172669896fe.webp",
+    "static/media/Alan-Keane.webp": "/memory-game/static/media/Alan-Keane.56d0c51dd517200c7fac.webp",
+    "static/media/Carmen-Verde.webp": "/memory-game/static/media/Carmen-Verde.0fa4fcd5689915baebee.webp",
+    "index.html": "/memory-game/index.html",
+    "main.54d7a6b2.css.map": "/memory-game/static/css/main.54d7a6b2.css.map",
+    "main.ed9c9299.js.map": "/memory-game/static/js/main.ed9c9299.js.map",
+    "787.69b12325.chunk.js.map": "/memory-game/static/js/787.69b12325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54d7a6b2.css",
+    "static/js/main.ed9c9299.js"
+  ]
+}
