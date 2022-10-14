@@ -5,9 +5,7 @@ const Score = (props) => {
     const [currentScore, setCurrentScore] = useState(0);
     const [highScore, setHighScore] = useState(0);
 
-    const incrementScore = () => {
-        setCurrentScore(currentScore+1);
-    }
+    
 
     const resetScore = () => {
         setCurrentScore(0);
@@ -20,7 +18,7 @@ const Score = (props) => {
             resetScore();
         }
         
-    }, [currentScore, highScore, incrementScore, props.score]);
+    }, [currentScore, highScore, props.score]);
 
 
 

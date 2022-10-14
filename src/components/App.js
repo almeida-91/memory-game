@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Card from "./Card";
+import Footer from "./Footer";
 import { checkAlreadyClicked, shuffle } from "./functions";
 import Header from "./Header";
 import GetCards from "./NewCardStack";
@@ -25,12 +26,14 @@ const App = () => {
 
     const handleCardClick = (e) => {
         shuffle(newGame);
-        if (checkAlreadyClicked(clickedCards,e.target.id) === true) {
-            resetScore();
-            setClickedCards([]);
-        } else {
-            incrementScore();
-            setClickedCards(clickedCards.concat(e.target.id));
+        if (e.target.id) {
+            if (checkAlreadyClicked(clickedCards,e.target.id) === true) {
+                resetScore();
+                setClickedCards([]);
+            } else {
+                incrementScore();
+                setClickedCards(clickedCards.concat(e.target.id));
+            }
         }
 
     }
@@ -48,6 +51,7 @@ const App = () => {
             <div className="cardList" onClick={handleCardClick}>
                 {cardList}
             </div>
+            <Footer />
         </div>
     )
 }

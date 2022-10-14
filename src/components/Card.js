@@ -8,7 +8,9 @@ const Card = props => {
 
     return (
         <div className="card" id={`${props.src}`}>
-            <img src={props.src} alt={props.name}/>
+            <div className="cardPicture">
+                <img src={props.src} alt={props.name}/>
+            </div>
             <p>{props.name}</p>
         </div>
     )
