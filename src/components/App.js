@@ -36,11 +36,7 @@ const App = () => {
   };
 
   const cardList = newGame.map((card) => (
-    <Card
-      key={card.src}
-      src={card.src}
-      name={card.name}
-    />
+    <Card key={card.src} src={card.src} name={card.name} />
   ));
 
   return (
