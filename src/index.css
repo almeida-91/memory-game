@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  max-height: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  aspect-ratio: auto;
+}
+
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,300px);
+  grid-auto-rows: auto;
+}

@@ -1,3 +1,17 @@
 .card * {
     pointer-events: none;
 }
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    background-color: aqua;
+    gap: 10px;
+    margin: 10px;
+    justify-items: center;
+    padding: 10px;
+}

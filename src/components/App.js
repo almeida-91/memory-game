@@ -24,7 +24,6 @@ const App = () => {
     }
 
     const handleCardClick = (e) => {
-        resetScore();
         shuffle(newGame);
         if (checkAlreadyClicked(clickedCards,e.target.id) === true) {
             resetScore();
@@ -46,7 +45,7 @@ const App = () => {
                 <Header />
                 <Score score = {score}/>
             </div>
-            <div onClick={handleCardClick}>
+            <div className="cardList" onClick={handleCardClick}>
                 {cardList}
             </div>
         </div>
