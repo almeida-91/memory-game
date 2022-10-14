@@ -1,48 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 .card * {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .card {
-    display: grid;
-    grid-template-rows: 1fr .55fr;
-    grid-template-columns: repeat(auto-fit, 250px);
-    width: 250px;
-    background-color: rgb(5, 62, 176);
-    color: white;
-    gap: 10px;
-    margin: 10px;
-    justify-items:center;
-    padding: 10px;
-    border-radius: 15px;
-    border: 3px solid black;
+  display: grid;
+  grid-template-rows: 1fr 0.55fr;
+  grid-template-columns: repeat(auto-fit, 250px);
+  width: 250px;
+  background-color: rgb(6, 150, 246);
+  color: white;
+  gap: 10px;
+  margin: 10px;
+  justify-items: center;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .card p {
-    font-size: 24px;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex: 1;
-    min-height: 90px;
+  font-size: 24px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-height: 90px;
 }
 
 .card img {
-    max-width: 250px;
-    max-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 .cardPicture {
-    display: flex;
-    flex-grow: 1;
-    background: radial-gradient(circle at 101% 89%, #4ac2e4,#ff7414);
-    max-height: 250px;
-    min-height: 250px;
-    max-width: 250px;
-    min-width: 250px;
-    border-radius: 15px;
-    border: 3px solid black;
-    justify-content: center;
+  display: flex;
+  flex-grow: 1;
+  background: radial-gradient(circle at 101% 89%, #4ac2e4, #ff7414);
+  max-height: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  min-width: 250px;
+  border-radius: 15px;
+  justify-content: center;
 }

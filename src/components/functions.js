@@ -1,17 +1,19 @@
-export function shuffle(array){
-    let m = array.length, temp, rand;
+export function shuffle(array) {
+  let m = array.length,
+    temp,
+    rand;
 
-    while (m) {
-        rand = Math.floor(Math.random() * m--);
+  while (m) {
+    rand = Math.floor(Math.random() * m--);
 
-        temp = array[m];
-        array[m] = array[rand];
-        array[rand] = temp;
-    }
+    temp = array[m];
+    array[m] = array[rand];
+    array[rand] = temp;
+  }
 
-    return array;
+  return array;
 }
 
 export function checkAlreadyClicked(clickedArray, element) {
-    return clickedArray.includes(element);
+  return clickedArray.includes(element);
 }
